@@ -1,0 +1,349 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* NAVBAR INÍCIO */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 25px;
+}
+
+.buttons {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #667085;
+    margin: 10px;
+}
+/* NAVBAR TÉRMINO */
+
+#header {
+    display: flex;
+    padding: 96px 0px;
+    gap: 24px;
+}
+
+/* 4 CARDS INÍCIO */
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+.titulo {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0078AD;
+}
+
+.titulo2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;  
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+
+.apresentacao {
+    width: 791px;
+    height: 60px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+}
+
+.cards { 
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-evenly;
+}
+
+.card1 {
+    width: 190px;
+    gap: 64px;
+    padding: 0px 0px 96px;
+}
+
+.card1 h2 {
+    width: 280px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: #0078AD;
+}
+
+.card1 h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    height: 35px;
+}
+
+.card1 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+/* 4 CARDS TÉRMINO */
+
+/* BOTÃO VAGAS INÍCIO */
+.vagas {
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: rgba(142, 36, 36, 0.05);
+}
+
+.vagas a {
+    color: #0078AD;
+    text-decoration: none;
+}
+/* BOTÃO VAGAS TÉRMINO */
+
+.banner {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 298px;
+}
+
+.talentos {
+    font-size: 1.5rem;
+    font-family: var(--main-font);
+    color: var(--main-color);
+    margin: 10px;
+    text-align: center;
+}
+
+.talentos h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #101828;
+}
+
+.talentos p { 
+    padding: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #667085;
+    margin: 10px;
+    text-align: center;
+}
+
+.equipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.equipe img {
+    width: 1216px;
+    height: 400px;
+    left: 112px;
+    top: 298px;
+}
+
+.jobs {
+    margin: 20px;
+}
+
+.infojobs {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 96px 0px;
+}
+
+.cargotitulo h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #101828;
+    height: 30px;
+}
+
+.cargos {
+    box-sizing: border-box;
+    margin: 15px;
+    border-radius: 16px;
+    width: 750px;
+    height: 136px;
+    border: 1px solid #EAECF0;
+}
+
+.cargos h2 {
+    padding: 20px;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    color: #101828;
+    height: 28px;
+}
+
+.money {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+.colab {
+    width: 60%;
+    margin: auto;
+    display: flex;
+
+}
+
+.back {
+    width: auto;
+    background-color: rgba(0, 120, 173, 0.03);
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    margin: 65px;
+}
+
+.colabtitulo h2 {
+    height: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #0078AD;
+    padding-bottom: 10px;
+}
+
+.colabtexto {
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+ 
+.fotojulia {
+    text-align: center;
+    margin: 25px;
+}
+
+.nome p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.juliacargo p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #667085;
+}
+
+/* RODAPÉ INÍCIO */
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    gap: 32px;
+    background: #F9FAFB;
+}
+
+.cadastro {
+    display: flex;
+}
+
+.rodapetexto h2 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+    color: #101828;
+    letter-spacing: -0.02em;
+}
+
+.rodapetexto p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+}
+
+.botao a {
+    font-family: 'Inter';
+    width: 100px;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 10px;
+    background: #0078AD;
+    border: 1px solid #0078AD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 7px;
+    color: #fff;
+}
+
+.cadastro input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 12px 14px 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    width: 300px;
+    border: 1px solid #D0D5DD;
+}
+.rodape .direitos {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #98A2B3;
+}
+/* RODAPÉ TÉRMINO */
